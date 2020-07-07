@@ -16,8 +16,8 @@ document.querySelector("#nav").innerHTML = `
 </div>
 <div id="settings">
 <div class="icons">
-<img src="/img/settings.svg" alt="">
-<img data-toggle-fullscreen src="/img/fullscreen.svg" alt="">
+<img src="img/settings.svg" alt="">
+<img data-toggle-fullscreen src="img/fullscreen.svg" alt="">
 </div>
 </div>
 `;
@@ -87,7 +87,7 @@ let scene, camera, renderer, controls, light, model;
 		})
 		
         
-        new THREE.GLTFLoader().load('/model/scene.gltf', result => { 
+        new THREE.GLTFLoader().load('model/scene.gltf', result => { 
           model = result.scene.children[0]; 
 		  model.position.set(0, -1, 0);
           model.traverse(n => { if ( n.isMesh ) {
