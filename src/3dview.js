@@ -16,8 +16,8 @@ document.querySelector("#nav").innerHTML = `
 </div>
 <div id="settings">
 <div class="icons">
-<img src="img/settings.svg" alt="">
-<img data-toggle-fullscreen src="img/fullscreen.svg" alt="">
+<img src="./img/settings.svg" alt="">
+<img data-toggle-fullscreen src="./img/fullscreen.svg" alt="">
 </div>
 </div>
 `;
