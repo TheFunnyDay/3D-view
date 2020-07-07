@@ -87,7 +87,7 @@ let scene, camera, renderer, controls, light, model;
 		})
 		
         
-        new THREE.GLTFLoader().load('model/scene.gltf', result => { 
+        new THREE.GLTFLoader().load('./model/scene.gltf', result => { 
           model = result.scene.children[0]; 
 		  model.position.set(0, -1, 0);
           model.traverse(n => { if ( n.isMesh ) {
