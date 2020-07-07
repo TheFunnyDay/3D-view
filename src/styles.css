@@ -1,0 +1,78 @@
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+* {
+    padding: 0;
+    margin: 0;
+}
+canvas {
+    width: 100%;
+
+}
+#app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+/* Меню */
+#nav {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+#nav .burger-menu {
+    cursor: pointer;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    top: 40px;
+    left: 40px;
+}
+
+#nav .lines {
+ margin-left: 11.81px;
+ margin-top: 14.49px;
+
+}
+
+#nav .lines  #line {
+    margin-top: 8.05px;
+    width: 27.38px;
+    height: 2px;
+    background-color: white;
+
+}
+
+#nav #settings {
+    position: relative;
+    float: right;
+    top: 40px;
+    right: 40px;
+    background-color: black;
+    width: 95px;
+    height: 51px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px ;
+}
+#nav #settings .icons {
+    margin-top: 13px;
+
+}
+
+#nav #settings .icons img {
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+/* Конец Меню */
